@@ -1,0 +1,25 @@
+h4{
+    color: rgb(155, 82, 224);
+    text-align: center;
+}
+option{
+    color: rgb(155, 82, 224);
+    background-color: rgb(214, 211, 211);
+}
+body{
+    background-color: rgb(73, 15, 128);
+}
+#btn {
+    width: 30%;
+    padding: 16px 0px;
+    margin: 2px auto; /* Define margens automáticas para centralizar horizontalmente */
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background: rgb(155, 82, 224);
+    cursor: pointer;
+}
