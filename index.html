@@ -9,11 +9,13 @@
     <script src='main.js'></script>
 </head>
 <body>
+  <div class="conteiner">
     <form name="selectForm">
         <p>
           <label for="tipoMusica"
-            > <h4> Escolha alguns tipos de música, em seguida, clique no botão
-            abaixo: </h4></label
+            > <h1> Escolha alguns tipos de música, <br>
+               em seguida, clique no botão
+            abaixo: </h1></label
           >
           <select id="tipoMusica" name="tipoMusica" multiple="multiple">
             <option selected="selected">Rap.</option>
@@ -31,7 +33,7 @@
         <p><input id="btn" type="button" value="Quantos foram selecionados?" /></p>
         <h4>LEMBRANDO: Para selecionar mais de 1 estilo de música, aperte o botão "ctrl".</h4>
       </form>
-      
+      </div>
       <script>
         function howMany(selectObject) {
           var numeroSelecionadas = 0;
