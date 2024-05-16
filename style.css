@@ -1,25 +1,79 @@
-h4{
-    color: rgb(155, 82, 224);
+h1 {
+    color: black;
     text-align: center;
 }
-option{
-    color: rgb(155, 82, 224);
+
+h4 {
+    color: black;
+    text-align: center;
+}
+
+option {
+    color: black;
     background-color: rgb(214, 211, 211);
 }
-body{
+
+body {
     background-color: rgb(73, 15, 128);
 }
+
 #btn {
     width: 30%;
     padding: 16px 0px;
-    margin: 2px auto; /* Define margens automáticas para centralizar horizontalmente */
+    margin: 2px;
     border: none;
     border-radius: 8px;
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #000000;
-    background: rgb(155, 82, 224);
+    color: rgb(168, 168, 168);
+    background-color: rgb(73, 15, 128);
     cursor: pointer;
+    width: 400px;
 }
+
+.conteiner {
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    background-color: rgb(132, 0, 255);
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+select {
+    width: 400px;
+}
+
+select {
+    color: gray;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Bloco para mudar cor de item selecionado no select */
+select:hover,
+select:focus,
+select:active,
+select:checked {
+    color: red;
+    background-color: red;
+}
+
+select option {
+    color: #333;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+/* -------------------------------------------------------------------------- */
+/* Fonte: https://pt.stackoverflow.com/questions/179501/como-mudar-a-cor-de-um-select-ao-selecionar-uma-op%C3%A7%C3%A3o */
+/*
+select:focus,
+select:active,
+
+select
+*/
